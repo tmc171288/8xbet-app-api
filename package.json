@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "8xbet app API server - Download 8xbet app at https://play.google.com/store/apps/details?id=com.crackhead.flashcardapp",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
